@@ -54,7 +54,7 @@ void Relay::setPercent(int percent)
     }
     else
     {
-        digitalWrite(pinNum, LOW);
+        digitalWrite(_pinNum, LOW);
         _stopMillis = 0;
     }
     _percent = percent;
